@@ -17,9 +17,6 @@ public class TestWebdriverManager {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://paytm.com/");
-		Thread.sleep(2000);
-
 		}
 	
 	}
