@@ -13,6 +13,7 @@ public class TestWebdriverManager {
 	@Test
 	public void a() throws Exception
 	{
+   System.out.println("First change");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
